@@ -4,15 +4,16 @@ import './index.css';
 import App from './App';
 import { ApolloProvider } from '@apollo/client';
 import client from './apolloClient';
-import GlobalStyles from './styles/GlobalStyles';
+import AuthProvider from './context/AuthContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
 root.render(
   <React.StrictMode>
     <ApolloProvider client={client}>
-      <GlobalStyles />
-      <App />
+      <AuthProvider>
+        <App />
+      </AuthProvider>
     </ApolloProvider>
   </React.StrictMode>
 );
