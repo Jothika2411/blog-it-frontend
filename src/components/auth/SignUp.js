@@ -6,8 +6,8 @@ import { SIGN_UP } from '../../graphql/mutations';
 import { signupSchema } from '../../validations/authSchema';
 import AuthLayout from '../../layouts/AuthLayout';
 import { StyledForm, Title, Subtitle, InputGroup, Label, ErrorMessage } from '../../styles/components/form.styles';
-import { Input } from '../../styles/components/input.styles';
-import Button from '../../styles/components/button.styles';
+import { Input } from '../../styles/components/inputs.styles';
+import Button from '../../styles/components/buttons.styles';
 import { AuthLink } from '../../styles/components/auth.styles';
 
 const SignUp = () => {

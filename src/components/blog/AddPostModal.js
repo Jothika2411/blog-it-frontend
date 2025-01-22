@@ -6,8 +6,8 @@ import { GET_POSTS } from '../../graphql/queries';
 import { blogPostSchema } from '../../validations/blogSchema';
 import { ModalOverlay, ModalContent, ModalHeader, ModalTitle, ModalClose, ModalBody, ModalFooter } from '../../styles/components/modal.styles';
 import { InputGroup, Label, ErrorMessage, CharacterCount } from '../../styles/components/form.styles';
-import { Input, TextArea } from '../../styles/components/input.styles';
-import Button from '../../styles/components/button.styles';
+import { Input, TextArea } from '../../styles/components/inputs.styles';
+import Button from '../../styles/components/buttons.styles';
 import styled from 'styled-components';
 
 const AddPostModal = ({ isOpen, onClose }) => {

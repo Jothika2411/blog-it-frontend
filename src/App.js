@@ -7,7 +7,7 @@ import SignUp from './components/auth/SignUp';
 import PrivateRoute from './layouts/PrivateRoute';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-import { GlobalStyles } from './styles/globalStyles';
+import { GlobalStyles } from './styles/global.styles';
 import Dashboard from './components/dashboard';
 
 function App() {
